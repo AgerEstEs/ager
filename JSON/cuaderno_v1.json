@@ -1,0 +1,402 @@
+{
+  "cuaderno_explotacion": {
+    "id": "001",
+    "fecha_apertura": "2017-10-13",
+    "firma_titular": "Juan Rodriguez Sanchez",
+    "texto_legal": "Declaro que la información es cierta...",
+    "informacion_general": {
+      "datos_generales_explotacion": {
+        "nombre": "Juan",
+        "apellidos": "Rodriguez Sanchez",
+        "razon_social": "Frutas El Limpio SL",
+        "nif": "A00066777",
+        "nreg_explotacion_nacional": "AFSG78955",
+        "nreg_explotacion_autonomica": "SD7899FGYY",
+        "direcciones": [
+          {
+            "direccion": "Calle del Pato N.23",
+            "localidad": "Valencia",
+            "cpostal": "46001",
+            "provincia": "Valencia",
+            "telefono_fijo": "963555555",
+            "telefono_movil": "555666777",
+            "email": "jrodriguez@gmail.com"
+          }
+        ],
+        "titulares": [
+          {
+            "nombre": "Juan",
+            "apellidos": "Rodriguez Sanchez",
+            "nif": "A00066777",
+            "direccion": {
+              "direccion": "Calle del Pato N.23",
+              "localidad": "Valencia",
+              "cpostal": "46001",
+              "provincia": "Valencia",
+              "telefono_fijo": "963555555",
+              "telefono_movil": "555666777",
+              "email": "jrodriguez@gmail.com"
+            }
+          }
+        ]
+      },
+      "relacionados_fitosanitarios": [
+        {
+          "id": "R0001",
+          "nombre": "Maria",
+          "apellidos": "De los Arcos Juan",
+          "empresa": "Frutas El Limpio ",
+          "nif": "A00066777",
+          "numero_ropo": "6687955246",
+          "asesor": false
+        }
+      ],
+      "equipos_aplicacion_fitosanitarios": [
+        {
+          "id": "E0001",
+          "descripcion": "Maquina de pulverizar",
+          "inscripcion_roma": "TRTTAYY",
+          "fecha_adquisicion": "2006-04-05",
+          "fecha_ultima_inspeccion": "2016-01-31"
+        }
+      ],
+      "asesores": [
+        {
+          "nombre": "Pedro Marca",
+          "razon_social": "Pedro Marca Asesores CB",
+          "nif": "C7895566",
+          "tipo_explotacion": "PI"
+        }
+      ]
+    },
+    "parcelas": [
+      {
+        "id": "P0001",
+        "referencia_sigpac": {
+          "codigo_provincia": "46",
+          "codigo_termino": "(45) Alzira",
+          "codigo_agregado": "AGH56",
+          "zona": "Al baldosin",
+          "numero_poligono": "78",
+          "numero_parcela": "41",
+          "uso_sigpac": "secano",
+          "superficie": {
+            "cantidad": 6.4,
+            "unidades": "ha"
+          }
+        },
+        "datos_agronomicos": {
+          "superficie_cultivada": {
+            "cantidad": 6.0,
+            "unidades": "ha"
+          },
+          "cultivo": {
+            "especie": "naranja",
+            "variedad": "clementina"
+          },
+          "tipo_riego": "regadio",
+          "tipo_proteccion": "aire libre",
+          "asesoramiento_plagas": "(AE) Agricultura ecológica"
+        },
+        "datos_medioambientales": {
+          "puntos_agua": [
+            {
+              "incluido_en_parcela": true,
+              "distancia": {
+                "cantidad": 16.20,
+                "unidades": "m"
+              },
+              "coordenadas_utm": {
+                "latitud": "0.1145222",
+                "longitud": "10.456666"
+              },
+              "denominacion": "Parcela 2 de la Finca Boí",
+              "zona_especifica": "no"
+            }
+          ]
+        }
+      }
+    ],
+    "actuaciones": [
+      {
+        "id": "A001223",
+        "id_parcela": "P001",
+        "cultivo": {
+          "especie": "naranja",
+          "variedad": "clementina"
+        },
+        "fecha_inicio": "2017-10-02",
+        "fecha_fin": "2017-10-02",
+        "superfice_tratada": {
+          "cantidad": 6,
+          "unidades": "ha"
+        },
+        "problema_fitosanitario": "Prevención del gorgojo rojo",
+        "aplicador": {
+          "aplicador_id": "AP4587"
+        },
+        "equipo": {
+          "equipo_id": "AS4566"
+        },
+        "producto": {
+          "nombre": "Bisulfx 34",
+          "registro": "REG789556",
+          "dosis": {
+            "cantidad": "15",
+            "unidades": "gr/m2"
+          },
+          "eficacia": "regular",
+          "observaciones": "No se ha podido tratar todo el campo por falta de producto, se hará otra aplicación adicional"
+        }
+      }
+    ],
+    "actuaciones_asesoradas": {
+      "actuaciones": [
+        {
+          "cultivo": {
+            "especie": "naranja",
+            "variedad": "clementina"
+          },
+          "parcela": {
+            "parcela_id": "P785566",
+            "superficie_cultivada": {
+              "cantidad": 6,
+              "unidades": "ha"
+            },
+            "superficie_tratada": {
+              "cantidad": 6,
+              "unidades": "ha"
+            },
+            "plaga": {
+              "nombre": "Piojo Rojo",
+              "justificacion_actuacion": "Por detección de larvas en las hojas"
+            },
+            "alternativa_no_quimica": {
+              "tipo_medida": "Trampas 34XF",
+              "intensidad_medida": "16 Trampas en 2 ubicaciones",
+              "fecha_actuación": "2017-10-01"
+            },
+            "alternativa_quimica": {
+              "nombre_comercial": "Rundup X45",
+              "numero_registro": "REG12456",
+              "dosis": {
+                "cantidad": 12,
+                "unidades": "kg/ha"
+              }
+            },
+            "eficacia_intervencion": "Buena",
+            "observaciones": "Nada a destacar"
+          }
+        }
+      ],
+      "validacion_intermedia": {
+        "firma": "Seh Vantyu",
+        "asesor": "Seh vantuy",
+        "fecha": "2017-10-01"
+      },
+      "validacion_final": {
+        "firma": "Seh Vantyu",
+        "asesor": "Seh vantuy",
+        "inscripcion_ropo": "INS7899BN",
+        "fecha_final": "2017-10-01"
+      }
+    },
+    "semillas_tratadas": {
+      "aplica_tratamiento": true,
+      "usos": [
+        {
+          "fecha_siembra": "2017-01-01",
+          "parcela": {
+            "parcela_id": "P785566"
+          },
+          "cultivo": {
+            "especie": "naranja",
+            "variedad": "clementina"
+          },
+          "superfice_sembrada": {
+            "cantidad": 6,
+            "unidades": "ha"
+          },
+          "cantidad_semilla": {
+            "cantidad": 16,
+            "unidades": "kg"
+          },
+          "producto_fitosanitario": {
+            "nombre_comercial": "Rundup X45",
+            "materia_activa": "rundyu",
+            "numero_registro": "REG12456"
+          }
+        }
+      ],
+      "tratamientos_postcosecha": {
+        "aplica_tratamiento": true,
+        "tratamientos": [
+          {
+            "fecha": "2017-10-01",
+            "producto_vegetal_tratado": "Raices de naranjo",
+            "problematica_fitosanitaria": "Las raices se están pudriendo",
+            "cantidad_producto_tratado": {
+              "cantidad": 2,
+              "unidades": "Tm"
+            },
+            "producto_fitosanitario": {
+              "nombre_comercial": "Rundup X45",
+              "materia_activa": "rundyu",
+              "numero_registro": "REG12456",
+              "cantidad_utilizada": {
+                "cantidad": 14,
+                "unidades": "l"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tratamientos_locales": {
+      "aplica_tratamiento": true,
+      "tratamientos": [
+        {
+          "fecha": "2017-10-01",
+          "local": {
+            "tipo": "almacén de aperos",
+            "dirección": {
+              "direccion": "Calle del Pato N.23",
+              "localidad": "Valencia",
+              "cpostal": "46001",
+              "provincia": "Valencia",
+              "telefono_fijo": "963555555",
+              "telefono_movil": "555666777"
+            }
+          },
+          "problematica_fitosanitaria": "Desratización completa",
+          "volumen_tratado": {
+            "cantidad": 160,
+            "unidades": "m3"
+          },
+          "producto": {
+            "nombre_comercial": "DERA MII",
+            "materia_activa": "estricnina",
+            "numero_registro": "REGXXX4566",
+            "cantidad_utilizada": {
+              "cantidad": 14,
+              "unidades": "l"
+            }
+          }
+        }
+      ]
+    },
+    "tratamientos_transportes": {
+      "aplica_tratamiento": true,
+      "tratamientos": [
+        {
+          "fecha": "2017-10-01",
+          "vehiculo": {
+            "tipo": "tractor",
+            "modelo": "Caterpillar 3455",
+            "matricula": "45668-CVB"
+          },
+          "problematica_fitosanitaria": "Desratización completa",
+          "volumen_tratado": {
+            "cantidad": 160,
+            "unidades": "m3"
+          },
+          "producto": {
+            "nombre_comercial": "DERA MII",
+            "materia_activa": "estricnina",
+            "numero_registro": "REGXXX4566",
+            "cantidad_utilizada": {
+              "cantidad": 14,
+              "unidades": "l"
+            }
+          }
+        }
+      ]
+    },
+    "analisis_fitosanitarios": [
+      {
+        "fecha": "2017-10-01",
+        "material_analizado": "vegetal",
+        "parcela": {
+          "parcela_id": "P785566",
+          "cultivo": {
+            "especie": "naranja",
+            "variedad": "clementina"
+          }
+        },
+        "nro_boletin_analisis": "G76",
+        "laboratorio": {
+          "nombre": "LAB. FERNANDEZ SL",
+          "direccion": {
+            "direccion": "Calle del Pato N.23",
+            "localidad": "Valencia",
+            "cpostal": "46001",
+            "provincia": "Valencia",
+            "telefono_fijo": "963555555",
+            "telefono_movil": "555666777",
+            "email": "labfernandez@gmail.com"
+          }
+        },
+        "sustancias_detectadas": [
+          {
+            "nombre": "Sulfitos"
+          }
+        ]
+      }
+    ],
+    "registros_cosechas": [
+      {
+        "fecha": "2017-10-01",
+        "producto": "Naranja",
+        "cantidad_producto": {
+          "cantidad": 260,
+          "unidades": "kg"
+        },
+        "parcela": {
+          "parcela_id": "P785566"
+        },
+        "albaran": "ALB78554",
+        "factura": "F789955",
+        "lote": "L78555",
+        "cliente": {
+          "nombre": "",
+          "apellidos": "",
+          "razon_social": "NARAEXPORT",
+          "nif": "A7895555",
+          "direcciones": [
+            {
+              "direccion": "Avenida la Osa 67",
+              "localidad": "Valencia",
+              "cpostal": "46001",
+              "provincia": "Valencia",
+              "telefono_fijo": "963333333",
+              "telefono_movil": "55555555",
+              "email": "admon@naraexport.com"
+            }
+          ]
+        }
+      }
+    ],
+    "registros_fertilizaciones": [
+      {
+        "fecha_inical": "2017-10-01",
+        "fecha_final": "2017-10-01",
+        "parcela": {
+          "parcela_id": "P785566",
+          "cultivo": {
+            "especie": "naranja",
+            "variedad": "clementina"
+          },
+          "tipo_abono": "(CU) Compost RCU",
+          "albaran": "AB78999",
+          "riqueza_NPK": "??",
+          "dosis": {
+            "cantidad": 14,
+            "unidades": "kg/ha"
+          },
+          "tipo_fertilizacion": "(F) Fertiirrigación",
+          "observaciones": "Nada a destacar"
+        }
+      }
+    ]
+  }
+}
